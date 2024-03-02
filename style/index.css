@@ -476,6 +476,22 @@ img.nav_logo{
     justify-content: center;
 }
 
+@media screen and (max-width:768px) {
+.hero{
+    background-position: center;
+    vertical-align:middle;
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden;
+    background-blend-mode: overlay;
+    background-image: url('/assets/index/bg_mobile.png');
+    /* Center */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+}
+
 .wrap {
     display: flex;
     justify-content: center;
