@@ -626,7 +626,6 @@ ul{
 .footer-col h4{
 	font-size: 18px;
 	color: #ffffff;
-	text-transform: capitalize;
 	margin-bottom: 35px;
 	font-weight: 500;
 	position: relative;
@@ -646,7 +645,6 @@ ul{
 }
 .footer-col ul li a{
 	font-size: 16px;
-	text-transform: capitalize;
 	color: #ffffff;
 	text-decoration: none;
 	font-weight: 300;
@@ -764,7 +762,6 @@ ul{
 .footer-col h4{
 	font-size: 18px;
 	color: #ffffff;
-	text-transform: capitalize;
 	margin-bottom: 35px;
 	font-weight: 500;
 	position: relative;
@@ -796,7 +793,6 @@ ul{
 }
 .footer-col ul li a{
 	font-size: 16px;
-	text-transform: capitalize;
 	color: #ffffff;
 	text-decoration: none;
 	font-weight: 300;
