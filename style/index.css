@@ -145,6 +145,7 @@ ul.navlinks a.inactive:hover {
     .container {
         margin: 0;
     }
+
 }
 
 @media screen and (max-width:768px) {
@@ -164,11 +165,12 @@ ul.navlinks a.inactive:hover {
         display: none;
     }
 
+    /* responsive menu color */
     .nav div.main_list ul {
         flex-direction: column;
         float: right;
         width: 28%;
-        height: 14vh;
+        height: 20vh;
         right: 0;
         left: 0;
         bottom: 0;
@@ -176,14 +178,22 @@ ul.navlinks a.inactive:hover {
         /*same background color of navbar*/
         background-position: center top;
     }
+
+    .item-desc h3,
+    p {
+        font-size: 10px;
+    }
+
+    /* responsive menu text */
     .nav div.main_list ul li {
         width: 100%;
         text-align: right;
+        font-size: 10px;
     }
     .nav div.main_list ul li a {
         text-align: center;
         width: 100%;
-        font-size: 3rem;
+        font-size: 10px;
     }
     .nav div.media_button {
         display: block;
@@ -1113,6 +1123,8 @@ button {
         transform: translateY(calc(100% - 46px));
         -webkit-transform: translateY(calc(100% - 46px));
     }
+
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1192,4 +1204,9 @@ button {
         transform: translateY(calc(100% - 42px));
         -webkit-transform: translateY(calc(100% - 42px));
     }
+
+.item-desc h3,
+p {
+    font-size: 10px;
+}
 }
