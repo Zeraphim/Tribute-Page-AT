@@ -587,6 +587,7 @@ a.btn{
 	padding:0;
 	box-sizing: border-box;
 }
+
 .container{
 	max-width: 1170px;
 	margin:auto;
@@ -664,6 +665,7 @@ ul{
     width: 50%;
     margin-bottom: 30px;
 }
+
 }
 @media(max-width: 574px){
   .footer-col{
